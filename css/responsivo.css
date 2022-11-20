@@ -1,0 +1,488 @@
+@media(max-width: 1500px){
+    .header .max-width{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .header .header-titulo h1{
+        font-size: 20px;
+    }
+    .header .header-titulo h2,
+    .header .header-titulo h3{
+        font-size: 12px;
+    }
+    .header .header-botao{
+        box-sizing: border-box;
+        width: 100px;
+        height: 34px;
+        border: 1px solid #CCCCCC;
+        border-radius: 3px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    /* Primeira Sessão */
+    .primeira .max-width{
+        padding: 100px 0;
+        margin-left: 17%;
+    }
+    .primeira .primeira-content .title h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: #ED7839;
+    }
+    .primeira .primeira-content img{
+        width: 800px;
+        margin-top: 20px;
+    }
+
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-01 .text-01 p{
+        font-size: 13px;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-01{
+        margin-top: 20px;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-01 p,
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-02 p{
+        font-size: 13px;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-03 p{
+        letter-spacing: 0.03em;
+        color: #5C5C5C;
+        font-size: 11px;
+        margin: 2px 0;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 span{
+        font-size: 6px;
+    }
+}
+@media(max-width: 1400px){
+    .header .max-width{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+        left: 13%;
+    }
+    .header .header-botao{
+        box-sizing: border-box;
+        width: 100px;
+        height: 34px;
+        border: 1px solid #CCCCCC;
+        border-radius: 3px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .header .header-titulo h1{
+        font-size: 18px;
+    }
+    .header .header-titulo h2,
+    .header .header-titulo h3{
+        font-size: 12px;
+    }
+
+    /* Primeira Sessão */
+    .primeira .max-width{
+        gap: 20px;
+        display: flex;
+    }
+    .primeira .primeira-content .title h1{
+        font-size: 18px;
+    }
+    .primeira .primeira-content img{
+        width: 730px;
+        margin-top: 20px;
+    }
+
+    /* Aside */
+    .primeira .aside .aside-bottom{
+        display: flex;
+        gap: 5px;
+        margin-left: 70px;
+    }
+    .primeira .aside .aside-content p{
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .primeira .aside .aside-bottom img{
+        width: 40px;
+        object-fit: contain;
+    }
+    .primeira .aside .aside-bottom .download{
+        width: 100px;
+        object-fit: contain;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-01 .text-01 p{
+        font-size: 13px;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-01{
+        margin-top: 20px;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-01 p,
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-02 p{
+        font-size: 13px;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-03 p{
+        letter-spacing: 0.03em;
+        color: #5C5C5C;
+        font-size: 11px;
+        margin: 2px 0;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 span{
+        font-size: 6px;
+    }
+}
+@media(max-width: 1300px){
+    /* Primeira Sessão */
+    .primeira .max-width{
+        gap: 10px;
+        display: flex;
+        
+    }
+    .primeira .primeira-content .title h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: #ED7839;
+    }
+    .primeira .primeira-content img{
+        width: 650px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 1250px){
+    .nav{
+        display: none;
+    }
+    .navegation{
+        display: inline-block;
+        z-index: 3;
+        width: 100%;
+        position: fixed;
+        top: 0%;
+    }
+    .navegation .max-width .nav-menu{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background: #ED7839;
+        padding: 0px 0;
+    }
+    .navegation .max-width .nav-menu li{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    .navegation .max-width .nav-menu li.active a{
+        color: #333;
+        font-size: 13px;
+    }
+    .navegation .max-width .nav-menu li a{
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+    }
+
+    .header .max-width{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        position: relative;
+        left: 0%;
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+
+    /* Primeira Sessão */
+    .primeira .max-width{
+        margin-left: 5%;
+        padding: 180px 0;
+    }
+    .primeira .primeira-content .title h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: #ED7839;
+    }
+    .primeira .primeira-content img{
+        width: 700px;
+        margin-top: 20px;
+    }
+
+    /* Main */
+    .main{
+        margin-top: -10%;
+    }
+    .main .display-01{
+        width: 90%;
+        border: 1px solid #ECECEC;
+        box-sizing: border-box;
+        border-radius: 3px 3px 0px 0px;
+        margin-left: 5%;
+        margin-top: 0%;
+    }
+    .main .display-01 p{
+        padding: 10px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .main .display-02{
+        border: 1px solid #ECECEC;
+        box-sizing: border-box;
+        border-radius: 3px 3px 0px 0px;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    .main .display-02 .display-main h4,
+    .main .display-02 .display-main p{
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .footer .max-width{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .footer .max-width .footer-content .footer-title p{
+        font-size: 13px;
+        letter-spacing: 0.03em;
+    }
+}
+@media(max-width: 1200px){
+    .header .max-width{
+        margin-top: 7%;
+    }
+
+    .primeira .max-width .primeira-content{
+        gap: 10px;
+    }
+    .primeira .primeira-content .title h1{
+        font-size: 16px;
+    }
+    .primeira .primeira-content img{
+        width: 600px;
+        margin-top: 20px;
+    }
+    .primeira .aside .painel-detalhes h1{
+        font-size: 16px;
+    }
+    .aside .painel-detalhes .painel-box{
+        padding: 5px;
+        overflow-y: scroll;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-01 .text-01 p,
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-01 p,
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-02 p{
+        font-size: 12px;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-01{
+        margin-top: 10px;
+    }
+    .primeira .aside .painel-detalhes .painel-box .detalhes-text-02 .text-03 p{
+        letter-spacing: 0.03em;
+        color: #5C5C5C;
+        font-size: 10px;
+        margin: 1px 0;
+    }
+}
+@media(max-width: 1000px){
+    .header .max-width{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 10%;
+        margin-top: 8%;
+    }
+    .header .header-contato{
+        margin: 0 100px;
+    }
+
+    /* Primeira Sessão */
+    .primeira .max-width{
+        padding: 230px 0;
+    }
+    .primeira .primeira-content .title h1{
+        font-size: 14px;
+    }
+    .primeira .primeira-content img{
+        width: 550px;
+        margin-top: 20px;
+    }
+
+    /* Main */
+    .main{
+        margin-top: -20%;
+    }
+    
+}
+@media(max-width: 900px){
+    .header .max-width{
+        margin-top: 9%;
+    }
+
+    /* Primeira Sessão */
+    .primeira .primeira-content .title h1{
+        font-size: 12px;
+    }
+    .primeira .primeira-content img{
+        width: 480px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 800px){
+    .navegation .max-width .nav-menu li a{
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+    }
+
+    .header .header-titulo h1{
+        font-size: 14px;
+    }
+    .header .header-titulo h2,
+    .header .header-titulo h3{
+        font-size: 12px;
+    }
+
+    .primeira .max-width{
+        display: flex;
+        flex-direction: column;
+    }
+    .primeira .primeira-content .title h1{
+        font-size: 16px;
+    }
+    .primeira .primeira-content img{
+        width: 600px;
+        margin-top: 20px;
+    }
+
+    .aside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Main */
+    .main{
+        margin-top: -25%;
+    }
+}
+@media(max-width: 650px){
+    .header .max-width{
+        margin-top: 14%;
+    }
+
+    .primeira .primeira-content .title h1{
+        font-size: 13px;
+    }
+    .primeira .primeira-content img{
+        width: 500px;
+        margin-top: 20px;
+    }
+
+    /* Main */
+    .main{
+        margin-top: -30%;
+    }
+}
+@media(max-width: 600px){
+    .navegation .max-width .nav-menu{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .navegation .max-width .nav-menu li{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    .navegation .max-width .nav-menu li a{
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    .header .max-width{
+        margin-top: 16%;
+    }
+    .header .header-contato{
+        margin: 0 50px;
+    }
+
+    .primeira .primeira-content .title h1{
+        font-size: 12px;
+    }
+    .primeira .primeira-content img{
+        width: 450px;
+        margin-top: 20px;
+    }
+
+    .footer .max-width .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media(max-width: 500px){
+    .navegation .max-width .nav-menu li{
+        margin: 20px;
+    }
+    .navegation .max-width .nav-menu li a{
+        font-size: 12px;
+        line-height: 0px;
+    }
+    
+    .header{
+        overflow-x: hidden;
+    }
+    .header .max-width{
+        margin-top: 18%;
+    }
+    .header .header-titulo h1{
+        font-size: 14px;
+    }
+    .header .header-titulo h2,
+    .header .header-titulo h3{
+        font-size: 11px;
+    }
+
+    .primeira .primeira-content .title h1{
+        font-size: 11px;
+    }
+    .primeira .primeira-content img{
+        width: 400px;
+        margin-top: 20px;
+    }
+}

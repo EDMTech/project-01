@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300&family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* Zerando CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fff6eb;
+}
+.contato{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(20rem);
+}
+.contato h1{
+    color: black;
+}
